@@ -11,7 +11,7 @@ const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
 
 const axios = require('axios')
-const menus = require('../src/api/shop-detail/menu.json')
+const menus = require('../static/api_shop_menu.json')
 
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
